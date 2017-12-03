@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        input[type=submit] {
+            width: 100%;
+            background-color: cornflowerblue;
+            color: gold;
+            padding: 14px 20px;
+            margin: 16px 0;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Home page</title>
 </head>
 <body>
 
-<h1><center>WELCOME TO MY WSD PROJECT</center></h1>
+<h1><center><marquee>WELCOME TO MY WSD PROJECT</marquee></center></h1>
 <center>
-<form>
+<div>
+<form action="Login.html" method="post">
 
-    <a href="/Users/shantanuodak/PhpstormProjects/wsdfinal/Login.html"><input type="submit" value="LOGIN" ></a>
-    <a href="/Users/shantanuodak/PhpstormProjects/wsdfinal/register.html"><input type="submit" value="REGISTER"></a>
+    <a href="Login.html"><input type="submit" value="LOGIN" ></a><br>
+
 
 </form>
+
+    <form action="register.html" method="post">
+
+
+        <a href="register.html"><input type="submit" value="REGISTER"></a>
+
+    </form>
+</div>
 </center>
 </body>
 </html>

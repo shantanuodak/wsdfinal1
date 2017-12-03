@@ -2,13 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="913b6f47-e5ba-448e-b3f5-59074c6e76e9" name="github" url="http://afs13.njit.edu/~so236">
-        <fileTransfer host="afs13.njit.edu" port="22" rootFolder="/afs/cad.njit.edu/u/s/o/so236" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
+      <webServer id="632c74f6-cf70-4342-8a6f-0f92547971e3" name="mac" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="$PROJECT_DIR$" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
